@@ -70,6 +70,6 @@ static const struct arg args[] = {
     { cpu_freq,     "|\x05 %4sHz",     NULL            },
 	{ datetime,     "<\x01 %s",         "%a, %d %b %T"  },
     { run_command,  "<\x07 %s",        "amixer sget Master | awk -F\"[][]\" '/%/ { print $2  }' | head -n1"    },
-    { keymap,       "<\x02%s",          NULL            },
-    //{ battery_perc, "<\x03  %s",       "BAT0"          },
+    //{ battery_perc, "<\x01  %s",       "BAT0"          },
+    { keymap,       "<\x01%s",          NULL            },
 };
