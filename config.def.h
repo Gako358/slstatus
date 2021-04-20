@@ -67,8 +67,8 @@ const char* print(const char* out) {
  */
 static const struct arg args[] = {
 	/* function     format              argument */
-    { netspeed_tx,  "<\x06 %s",        "wlp7s0"       },
-    { wifi_essid,   "|\x06 %s",         "wlp7s0"       },
+    { netspeed_tx,  "<\x06 %s",        "wlp5s0"       },
+    { wifi_essid,   "|\x06 %s",         "wlp5s0"       },
     { disk_used,    "<\x04 %s",        "/"             },
     { ram_used,     "<\x05 %s",        NULL            },
     { cpu_freq,     "|\x05 %4sHz",     NULL            },
